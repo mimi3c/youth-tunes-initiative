@@ -14,7 +14,14 @@ const Home = () => {
                     transformative gift of music to children in various communities.
                 </p>
             </div>
-            <div>test</div>
+            <div>
+                <ul>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                </ul>
+            </div>
         </div>
     )
 }
