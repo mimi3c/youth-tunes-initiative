@@ -18,8 +18,6 @@ const Home = () => {
                 <ul>
                     <li>test</li>
                     <li>test</li>
-                    <li>test</li>
-                    <li>test</li>
                 </ul>
             </div>
         </div>
