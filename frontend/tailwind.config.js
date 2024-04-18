@@ -7,14 +7,17 @@ module.exports = {
   theme: {
     colors: {
       'peach': '#F4DBDB',
-      'orange': '#E68C00',
+      'orange': '#EFA651',
       'sea': '#94B6EF',
       'night': '#5E3D9B',
-      'white': '#FFFFFF'
+      'white': '#FFFFFF',
+      'black': '#000000'
     }, 
     fontFamily: {
       "shrikhand": ['Shrikhand', 'slab-serif'],
-      "rokkitt": ['Rokkitt', 'slab-serif']
+      "rokkitt": ['Rokkitt', 'slab-serif'], 
+      "ubuntu": ['Ubuntu', 'sans-serif'],
+      "caprasimo": ['Caprasimo', 'slab-serif']
     }, 
     extend: {
     },

@@ -37,7 +37,7 @@ const Navbar = () => {
                     }}/>
                 </div>
                 <div className="lg:grid hidden w-2/4">
-                    <ul className="flex items-center justify-between text-orange font-bold">
+                    <ul className="flex items-center justify-between text-orange font-medium font-ubuntu">
                         <li className="p-1">Home</li>
                         <li className="p-1">About</li>
                         <li className="p-1">Impact</li>
