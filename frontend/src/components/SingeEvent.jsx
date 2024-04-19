@@ -11,9 +11,9 @@ const SingleEvent = (props) => {
                         {eventslist[props.currentTown].events.map(
                             (shownevent, index) => {
                                 return(
-                                    <tr className="font-ubuntu text-start border-2 border-peach" key={index}>
-                                        <td className="font-bold text-orange p-2">{shownevent.month}/{shownevent.day}/{shownevent.year}</td>
-                                        <td className="p-2 w-40 text-orange">{shownevent.time}</td>
+                                    <tr className="font-ubuntu text-start border-y-4 border-white" key={index}>
+                                        <td className="bg-peach text-center w-[90px] font-bold text-orange p-2">{shownevent.month}/{shownevent.day}/{shownevent.year}</td>
+                                        <td className="p-2 w-32 text-orange text-center border-4 border-white bg-peach">{shownevent.time}</td>
                                         <td className="p-2">{shownevent.desc}</td>
                                     </tr>
                                 );
