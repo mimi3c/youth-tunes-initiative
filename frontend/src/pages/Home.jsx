@@ -22,7 +22,7 @@ const Home = () => {
             <div className="bg-night py-32">
                 <div className="lg:mx-64 grid justify-center">
                     <h1 className="text-sea text-center font-shrikhand uppercase text-5xl">Our founders</h1>
-                    <div className="flex px-10 mt-5 items-center w-auto">
+                    <div className="lg:flex md:flex px-10 mt-5 items-center w-auto">
                         <img src="" alt="test" className="bg-black min-w-80 h-80 mr-10 rounded-3xl"/>
                         <div className="">
                             <h1 className="text-4xl font-bold text-orange font-rokkitt">Name</h1>
@@ -35,7 +35,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex px-10 mt-5 items-center w-auto">
+                    <div className="lg:flex md:flex px-10 mt-5 items-center w-auto">
                         <div className="text-right">
                             <h1 className="text-4xl font-bold text-orange font-rokkitt">Name</h1>
                             <p className="font-ubuntu text-white">
@@ -52,7 +52,7 @@ const Home = () => {
             </div>
             <div className="py-20 grid jusitfy-center">
                 <h1 className="text-5xl font-caprasimo uppercase text-center text-sea">Image Gallery</h1>
-                <h2 className="text-center font-rokkitt font-semibold text-2xl mt-5 text-orange">Something something qqqwert fhjhjgfk. learn more about how we teach kids. heres some images</h2>
+                <h2 className="text-center px-5 font-rokkitt font-semibold text-2xl mt-5 text-orange">Something something qqqwert fhjhjgfk. learn more about how we teach kids. heres some images</h2>
                 <div>
                     
                 </div>
