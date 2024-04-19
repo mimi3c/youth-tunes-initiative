@@ -1,28 +1,27 @@
 import { useEffect, useRef, useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import logo from "../images/YTI_logo.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [sticky, setSticky] = useState("");
     const navRef = useRef();
 
     useEffect(() => {
-        window.addEventListener("scroll", stickNavbar);
-    
-        return () => {
-          window.removeEventListener("scroll", stickNavbar);
-        };
-    });
-    
-    const stickNavbar = () => {
-        if (window !== undefined) {
+        const stickNavbar = () => {
             const windowHeight = window.scrollY;
 
             windowHeight > 4
             ? setSticky("scale-[2] -translate-y-2 border border-night")
             : setSticky("");
-        }
-    }
+        };
+
+        window.addEventListener("scroll", stickNavbar);
+    
+        return () => {
+          window.removeEventListener("scroll", stickNavbar);
+        };
+    }, []);
     
     return(
         <div className="flex justify-center px-5">
@@ -38,17 +37,17 @@ const Navbar = () => {
                 </div>
                 <div className="lg:grid hidden w-2/4">
                     <ul className="flex items-center justify-between text-orange font-medium font-ubuntu">
-                        <li className="p-1">Home</li>
-                        <li className="p-1">About</li>
+                        <li className="p-1"><Link to="/">Home</Link></li>
+                        <li className="p-1"><Link to="/about">About</Link></li>
                         <li className="p-1">Impact</li>
                         <li className="p-1">Contact Us</li>
                     </ul>
                 </div>
             </nav>
-            <div ref = {navRef} className="transition duration-200 border-b-2 border-color-night bg-white w-full pt-20 fixed pr-10 pb-5 -translate-y-full">
+            <div ref={navRef} className="transition duration-200 border-b-2 border-color-night bg-white w-full pt-20 fixed pr-10 pb-5 -translate-y-full">
                 <ul className="text-right text-orange p-1 font-bold">
-                    <li className="p-1">Home</li>
-                    <li className="p-1">About</li>
+                    <li className="p-1"><Link to="/">Home</Link></li>
+                    <li className="p-1"><Link to="/about">About</Link></li>
                     <li className="p-1">Impact</li>
                     <li className="p-1">Contact Us</li>
                 </ul>
