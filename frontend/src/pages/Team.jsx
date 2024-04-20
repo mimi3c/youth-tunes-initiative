@@ -1,6 +1,7 @@
 import React from "react";
 import profilelist from "../components/profilelist";
 import ScrollToTop from "../components/ScrollToTop";
+import { Link } from "react-router-dom";
 
 const Team = () => {
     
@@ -37,11 +38,11 @@ const Team = () => {
                     }
                 )}
             </div>
-            <button className="bg-night text-white font-ubuntu rounded-3xl mt-5 mb-20 p-5 px-10 justify-self-center w-max-content"
-                onClick={() => {}}
-                >
-                    Join our team
-                </button>
+            <div className="flex justify-center items-center h-1/3 w-full">  
+            <Link to="/impact"><button className="bg-night text-white font-ubuntu rounded-3xl mt-5 p-5 px-10 justify-self-center w-max-content"onClick={() => {}}>See More</button>
+                    </Link>
+            </div>
+
         </div>
     )
 }
