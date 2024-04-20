@@ -3,6 +3,8 @@ import Events from "../components/Events";
 import homeBg from "../images/home_bg.jpeg";
 import { IoIosArrowDown } from "react-icons/io";
 import ScrollToTop from "../components/ScrollToTop";
+import { Link } from "react-router-dom";
+
 
 const Home = () => {
     const div = useRef()
@@ -41,22 +43,22 @@ const Home = () => {
                         <div className="grid flex-1">
                             <img src="" alt="test" className="justify-self-center bg-black w-80 h-80 m-10 rounded-3xl"/>
                             <div className="text-center">
-                                <h1 className="text-4xl font-bold text-orange font-rokkitt">Reva</h1>
+                                <h1 className="text-4xl font-bold text-orange font-rokkitt">Anusha</h1>
                                 <p className="font-ubuntu text-white m-10">
-                                    Trained in Indian Classical dance for over 10 years, Reva has taught dance at a
-                                    regular dance school as well as conducted her own dance summer camp. Reva has been
-                                    playing violin for the past 7 years, and is currently a member of the NJYS Youth Orchestra.
+                                    Anusha is a part of her high school choir, NJ Regionals Choir, and NJ All-State Choir.
+                                    She has been performing at events for 8 years and has helped teach at the Wharton Arts Music
+                                    School musical summer programs. 
                                 </p>
                             </div>
                         </div>
                         <div className="grid flex-1">
                             <img src="" alt="test" className="justify-self-center bg-black w-80 h-80 m-10 rounded-3xl"/>
                             <div className="text-center">
-                                <h1 className="text-4xl font-bold text-orange font-rokkitt">Anusha</h1>
+                                <h1 className="text-4xl font-bold text-orange font-rokkitt">Reva</h1>
                                 <p className="font-ubuntu text-white m-10">
-                                    Anusha is a part of her high school choir, NJ Regionals Choir, and NJ All-State Choir.
-                                    She has been performing at events for 8 years and has helped teach at the Wharton Arts Music
-                                    School musical summer programs. <br /><br />
+                                    Trained in Indian Classical dance for over 10 years, Reva has taught dance at a
+                                    regular dance school as well as conducted her own dance summer camp. Reva has been
+                                    playing violin for the past 7 years, and is currently a member of the NJYS Youth Orchestra. <br /><br />
                                 </p>
                             </div>
                         </div>
@@ -74,11 +76,10 @@ const Home = () => {
                     <img src="" alt="" className="bg-black m-5 w-80 h-80 justify-self-center rounded-3xl"/>
                     <img src="" alt="" className="bg-black m-5 w-80 h-80 justify-self-center rounded-3xl"/>
                 </div>
-                <button className="bg-night text-white font-ubuntu rounded-3xl mt-5 p-5 px-10 justify-self-center w-max-content"
-                onClick={() => {}}
-                >
-                    See More
-                </button>
+                <div className="flex justify-center items-center">
+                    <Link to="/impact"><button className="bg-night text-white font-ubuntu rounded-3xl mt-5 p-5 px-10 justify-self-center w-max-content"onClick={() => {}}>See More</button>
+                    </Link>
+                </div>
             </div>
         </div>
     )

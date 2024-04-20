@@ -32,7 +32,7 @@ const Navbar = () => {
                 <p className="p-2 text-white">..</p>
             </nav>
             <nav className="inset-x-5 mt-4 rounded-3xl z-50 bg-white fixed flex justify-between pr-5 pl-1">
-                <img src={logo} alt="logo" className="h-10 my-1"/>
+                <Link to="/"><img src={logo} alt="Logo" className="h-10 my-1" /></Link>
                 <div className="flex items-center lg:hidden">
                     <FiMenu size={24} color='#E68C00'onClick={() => {
                         navRef.current.classList.toggle("-translate-y-full")
@@ -42,8 +42,8 @@ const Navbar = () => {
                     <ul className="flex items-center justify-between text-orange font-medium font-ubuntu">
                         <li className="p-1"><Link to="/">Home</Link></li>
                         <li className="p-1"><Link to="/about">About</Link></li>
-                        <li className="p-1">Impact</li>
-                        <li className="p-1">Contact Us</li>
+                        <li className="p-1"><Link to="/impact">Impact</Link></li>
+                        <li className="p-1"><Link to="/contact">Contact Us</Link></li>
                     </ul>
                 </div>
             </nav>
@@ -51,8 +51,8 @@ const Navbar = () => {
                 <ul className="text-right text-orange p-1 font-bold font-medium font-ubuntu">
                     <li className="p-1"><Link to="/">Home</Link></li>
                     <li className="p-1"><Link to="/about">About</Link></li>
-                    <li className="p-1">Impact</li>
-                    <li className="p-1">Contact Us</li>
+                    <li className="p-1"><Link to="/impact">Impact</Link></li>
+                    <li className="p-1"><Link to="/contact">Contact Us</Link></li>
                 </ul>
             </div>
         </div>
