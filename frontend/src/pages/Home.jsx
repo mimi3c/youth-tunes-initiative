@@ -2,9 +2,12 @@ import React, {useRef} from "react";
 import Events from "../components/Events";
 import homeBg from "../images/home_bg.jpeg";
 import { IoIosArrowDown } from "react-icons/io";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Home = () => {
     const div = useRef()
+
+    ScrollToTop();
 
     return(
         <div className="overflow-clip">

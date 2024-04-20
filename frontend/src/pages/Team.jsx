@@ -1,7 +1,11 @@
 import React from "react";
 import profilelist from "../components/profilelist";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Team = () => {
+    
+    ScrollToTop();
+    
     return(
         <div className="grid">
             <div className="bg-black justify-center h-[92vh] items-center flex-col flex">
