@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useRef} from "react";
 import Events from "../components/Events";
 import homeBg from "../images/home_bg.jpeg";
+import { IoIosArrowDown } from "react-icons/io";
 
 const Home = () => {
+    const div = useRef()
+
     return(
         <div className="overflow-clip">
             <div className="bg-black justify-center h-[100vh] items-center flex-col flex">
@@ -19,8 +22,13 @@ const Home = () => {
                     platform to discover engaging projects that focus on bringing the 
                     transformative gift of music to children in various communities.
                 </p>
+                <button className="z-30 text-white mt-5"
+                    onClick={() =>
+                        div.current.scrollIntoView({ behavior: "smooth", block: "start" })}
+                    ><IoIosArrowDown />
+                </button>
             </div>
-            <div className="py-20 bg-sea border-t-2 border-night">
+            <div className="py-20 bg-sea border-t-2 border-night scroll-m-10" ref={div}>
                 <Events />
             </div>
             <div className="bg-night py-32">
@@ -55,11 +63,19 @@ const Home = () => {
             <div className="py-20 grid jusitfy-center">
                 <h1 className="text-5xl font-caprasimo uppercase text-center text-sea">Image Gallery</h1>
                 <h2 className="text-center px-5 font-rokkitt font-semibold text-2xl mt-5 text-orange">Something something qqqwert fhjhjgfk. learn more about how we teach kids. heres some images</h2>
-                <div>
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                <div className="mt-5 lg:grid-cols-3 lg:mx-10 md:grid-cols-2 grid">
+                    <img src="" alt="" className="bg-black m-5 w-80 h-80 justify-self-center rounded-3xl"/>
+                    <img src="" alt="" className="bg-black m-5 w-80 h-80 justify-self-center rounded-3xl"/>
+                    <img src="" alt="" className="bg-black m-5 w-80 h-80 justify-self-center rounded-3xl"/>
+                    <img src="" alt="" className="bg-black m-5 w-80 h-80 justify-self-center rounded-3xl"/>
+                    <img src="" alt="" className="bg-black m-5 w-80 h-80 justify-self-center rounded-3xl"/>
+                    <img src="" alt="" className="bg-black m-5 w-80 h-80 justify-self-center rounded-3xl"/>
                 </div>
+                <button className="bg-night text-white font-ubuntu rounded-3xl mt-5 p-5 px-10 justify-self-center w-max-content"
+                onClick={() => {}}
+                >
+                    See More
+                </button>
             </div>
         </div>
     )

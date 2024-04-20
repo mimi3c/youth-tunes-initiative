@@ -27,7 +27,7 @@ const Navbar = () => {
     return(
         <div className="flex justify-center px-5">
             <nav className={`${sticky} inset-x-5 mt-5 rounded-3xl z-40 bg-white fixed flex transition-transform duration-75`}>
-                <p className="p-2 text-white">shh</p>
+                <p className="p-2 text-white">..</p>
             </nav>
             <nav className="inset-x-5 mt-4 rounded-3xl z-50 bg-white fixed flex justify-between pr-5 pl-1">
                 <img src={logo} alt="logo" className="h-10 my-1"/>
