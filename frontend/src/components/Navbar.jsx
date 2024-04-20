@@ -47,7 +47,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </nav>
-            <div ref = {navRef} className="transition duration-200 border-b-2 border-color-night bg-white w-full pt-20 fixed pr-10 pb-5 -translate-y-full">
+            <div ref = {navRef} className="transition z-40 duration-200 border-b-2 border-color-night bg-white w-full pt-20 fixed pr-10 pb-5 -translate-y-full">
                 <ul className="text-right text-orange p-1 font-bold font-medium font-ubuntu">
                     <li className="p-1"><Link to="/">Home</Link></li>
                     <li className="p-1"><Link to="/about">About</Link></li>
