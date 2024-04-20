@@ -3,10 +3,10 @@ import eventslist from "./eventslist";
 
 const SingleEvent = (props) => {
     return(
-        <div className="my-5">
-            <h1 className="text-4xl font-caprasimo text-orange mb-5">Upcoming Events: <a href="">{eventslist[props.currentTown].town}</a></h1>
+        <div className="">
+            <h1 className="text-4xl font-caprasimo text-orange mb-5">Upcoming Events: <a href={eventslist[props.currentTown].link}>{eventslist[props.currentTown].town}</a></h1>
             <p>
-                <div className="overflow-y-auto h-[230px]">
+                <div className="overflow-y-scroll max-h-[220px]">
                     <table className="">
                         {eventslist[props.currentTown].events.map(
                             (shownevent, index) => {

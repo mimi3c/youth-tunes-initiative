@@ -6,6 +6,7 @@ const day4 = "Students incorporate newly learned knowledge of rhythm with moveme
 const eventslist = [
     {
         town: "Linden",
+        link: "",
         events: [
             {
                 month: 1,
@@ -46,6 +47,7 @@ const eventslist = [
     },
     {
         town: "Union",
+        link:"",
         events: [
             {
                 month: 1,
@@ -65,6 +67,7 @@ const eventslist = [
     },
     {
         town: "Kenilworth",
+        link: "https://kenilworthlibrary.org/event/youth-tunes-workshop-at-the-kenilworth-public-library-2/",
         events: [
             {
                 month: 5,
