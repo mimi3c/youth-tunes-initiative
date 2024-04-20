@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import logo from "../images/YTI_logo.svg";
+import * as React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -8,20 +9,22 @@ const Navbar = () => {
     const navRef = useRef();
 
     useEffect(() => {
-        const stickNavbar = () => {
-            const windowHeight = window.scrollY;
-
-            windowHeight > 4
-            ? setSticky("scale-[2] -translate-y-2 border border-night")
-            : setSticky("");
-        };
-
         window.addEventListener("scroll", stickNavbar);
     
         return () => {
           window.removeEventListener("scroll", stickNavbar);
         };
-    }, []);
+    });
+    
+    const stickNavbar = () => {
+        if (window !== undefined) {
+            const windowHeight = window.scrollY;
+
+            windowHeight > 4
+            ? setSticky("scale-[2] -translate-y-2 border border-night")
+            : setSticky("");
+        }
+    }
     
     return(
         <div className="flex justify-center px-5">
@@ -44,8 +47,8 @@ const Navbar = () => {
                     </ul>
                 </div>
             </nav>
-            <div ref={navRef} className="transition duration-200 border-b-2 border-color-night bg-white w-full pt-20 fixed pr-10 pb-5 -translate-y-full">
-                <ul className="text-right text-orange p-1 font-bold">
+            <div ref = {navRef} className="transition duration-200 border-b-2 border-color-night bg-white w-full pt-20 fixed pr-10 pb-5 -translate-y-full">
+                <ul className="text-right text-orange p-1 font-bold font-medium font-ubuntu">
                     <li className="p-1"><Link to="/">Home</Link></li>
                     <li className="p-1"><Link to="/about">About</Link></li>
                     <li className="p-1">Impact</li>
