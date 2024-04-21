@@ -1,23 +1,40 @@
 import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const form = useRef();
 
-  const sendEmail = () => {};
+  const sendEmail = (e) => {
+    e.preventDefault();
+  console.log('Form data:', form.current);
+
+
+    emailjs
+      .sendForm('service_j6c9ti6', 'template_qwom79g', form.current, 
+      {publicKey: 'P_EDJnQgODqIrRxtq'
+  })
+      .then(
+        (result) => {
+          console.log('Email sent successfully');
+          e.target.reset(); // Reset the form after successful submission
+        },
+        (error) => {
+          console.error('Error sending email:', error);
+          alert('There was an error sending your message. Please try again.');
+        }
+      );
+  };
 
   return (
     <div>
-      <div className="bg-black justify-center h-[92vh] items-center flex-col flex">
-        <div className="absolute w-full h-[92vh] overflow-clip">
+      <div className="bg-black justify-center h-[92vh] flex flex-col items-center">
+        <div className="absolute w-full h-[92vh] overflow-hidden">
           <img src="" alt="" className="opacity-80 w-full h-full object-cover" />
         </div>
-        <h1 className="text-sea font-shrikhand text-5xl text-center w-11/12 z-30">
-          GET IN TOUCH
-        </h1>
-        <p className="text-white w-3/6 text-center font-ubuntu font-normal mx-auto z-30">
-          <br />
-          Explore our platform to discover engaging projects that focus on bringing the
-          transformative gift of music to children in various communities.
+        <h1 className="text-sea font-shrikhand text-5xl text-center z-30">GET IN TOUCH</h1>
+        <br />
+        <p className="text-white w-3/6 text-center font-ubuntu font-normal z-30">
+          Explore our platform to discover engaging projects that focus on bringing the transformative gift of music to children in various communities.
         </p>
       </div>
 
@@ -27,12 +44,8 @@ const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="form-control card flex-center dir-column"
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-          }}
+          className="flex flex-col items-center"
+          style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
         >
           <input
             type="text"
@@ -61,19 +74,16 @@ const Contact = () => {
             rows="10"
             style={{ width: '50%', marginBottom: '10px', borderColor: 'black', borderWidth: '1px' }}
           ></textarea>
-          <div className="flex justify-center items-center h-3/4 w-full">
-            <button
-              type="submit"
-              className="bg-night text-white font-ubuntu rounded-3xl mt-4 p-5 px-7 justify-self-center w-max-content"
-              onClick={() => {}}
-            >
-              Send Message
-            </button>
-          </div>
-          <div className="bg-white w-full h-2/3">
-            <h1 className="text-white">hello</h1>
-          </div>
+
+          <button
+            type="submit"
+            className="bg-night text-white font-ubuntu rounded-3xl mt-4 p-5 px-7"
+          >
+            Send Message
+          </button>
         </form>
+        <div style={{ height: '50px' }} /> {/* Spacer with specified height */}
+
       </div>
     </div>
   );
