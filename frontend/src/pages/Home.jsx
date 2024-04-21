@@ -28,7 +28,7 @@ const Home = () => {
                 </h1>
                 <p className="text-white w-5/12 text-center font-ubuntu font-normal mx-auto z-30">
                     <br />
-                    Youth Tunes Initiative aims to provide accessible education for children to freely 
+                    Youth Tunes Initiative aims to provide accessible education for children to  
                     explore the many different elements of music. Our free, four-day workshops are found at 
                     local libraries all across Union County.
                     <br /><br />
