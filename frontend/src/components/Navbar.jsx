@@ -33,26 +33,26 @@ const Navbar = () => {
             </nav>
             <nav className="inset-x-5 mt-4 rounded-3xl z-50 bg-white fixed flex justify-between pr-5 pl-1">
                 <Link to="/"><img src={logo} alt="Logo" className="h-10 my-1" /></Link>
-                <div className="flex items-center lg:hidden">
+                <div className="flex items-center lg:hidden cursor-pointer">
                     <FiMenu size={24} color='#E68C00'onClick={() => {
                         navRef.current.classList.toggle("-translate-y-full")
                     }}/>
                 </div>
                 <div className="lg:grid hidden w-2/4">
-                    <ul className="flex items-center justify-between text-orange font-medium font-ubuntu">
-                        <li className="p-1"><Link to="/">Home</Link></li>
-                        <li className="p-1"><Link to="/about">About</Link></li>
-                        <li className="p-1"><Link to="/impact">Impact</Link></li>
-                        <li className="p-1"><Link to="/contact">Contact Us</Link></li>
+                    <ul className="grid grid-cols-4 items-center text-center justify-between text-orange font-medium font-ubuntu">
+                        <li className="p-1 hover:font-bold"><Link to="/">Home</Link></li>
+                        <li className="p-1 hover:font-bold"><Link to="/about">About</Link></li>
+                        <li className="p-1 hover:font-bold"><Link to="/impact">Impact</Link></li>
+                        <li className="p-1 hover:font-bold"><Link to="/contact">Contact Us</Link></li>
                     </ul>
                 </div>
             </nav>
             <div ref = {navRef} className="transition z-40 duration-200 border-b-2 border-color-night bg-white w-full pt-20 fixed pr-10 pb-5 -translate-y-full">
                 <ul className="text-right text-orange p-1 font-bold font-medium font-ubuntu">
-                    <li className="p-1"><Link to="/">Home</Link></li>
-                    <li className="p-1"><Link to="/about">About</Link></li>
-                    <li className="p-1"><Link to="/impact">Impact</Link></li>
-                    <li className="p-1"><Link to="/contact">Contact Us</Link></li>
+                    <li className="p-1 hover:font-bold"><Link to="/">Home</Link></li>
+                    <li className="p-1 hover:font-bold"><Link to="/about">About</Link></li>
+                    <li className="p-1 hover:font-bold"><Link to="/impact">Impact</Link></li>
+                    <li className="p-1 hover:font-bold"><Link to="/contact">Contact Us</Link></li>
                 </ul>
             </div>
         </div>

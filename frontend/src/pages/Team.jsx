@@ -40,8 +40,11 @@ const Team = () => {
                 )}
             </div>
             <div className="flex justify-center items-center h-1/3 w-full">  
-            <Link to="/impact"><button className="bg-night text-white font-ubuntu rounded-3xl mt-5 p-5 px-10 justify-self-center w-max-content"onClick={() => {}}>See More</button>
-                    </Link>
+                <Link to="/impact">
+                    <button className="bg-night text-white font-ubuntu rounded-3xl my-10 mt-20 p-5 px-10 justify-self-center w-max-content" onClick={() => {}}>
+                        Join our team
+                    </button>
+                </Link>
             </div>
 
         </div>
