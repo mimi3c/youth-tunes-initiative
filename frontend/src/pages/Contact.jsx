@@ -1,5 +1,7 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import ScrollToTop from "../components/ScrollToTop";
+
 
 const Contact = () => {
   const form = useRef();
@@ -16,6 +18,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log('Email sent successfully');
+          ScrollToTop()
           e.target.reset(); // Reset the form after successful submission
         },
         (error) => {
@@ -34,7 +37,7 @@ const Contact = () => {
         <h1 className="text-sea font-shrikhand text-5xl text-center z-30">GET IN TOUCH</h1>
         <br />
         <p className="text-white w-3/6 text-center font-ubuntu font-normal z-30">
-          Explore our platform to discover engaging projects that focus on bringing the transformative gift of music to children in various communities.
+          Contact us to bring our program to your library, county, or other location, or to join our team and be one of our teachers or program directors.
         </p>
       </div>
 

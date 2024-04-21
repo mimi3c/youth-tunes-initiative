@@ -14,9 +14,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex-1">
-                Address line 1 <br />
-                City State 12345 <br />
-                idrk what to put here
+                Instagram Upcoming <br />
+                Facebook Upcoming <br />
+                YouTube Upcoming
             </div>
             <div className="">
                 <img src={logo} alt="logo" className="h-20 my-1"/>

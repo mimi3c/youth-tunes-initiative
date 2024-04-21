@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import webvid from "../images/webvid.mp4";
 import PercussionK from "../images/PercussionImpact.jpg";
+import ScrollToTop from "../components/ScrollToTop";
+
 
 const ImageTextBlock = ({ src, text }) => (
   <div className="mb-4 md:mb-0 text-center"> {/* Add margin for vertical stacking */}
@@ -13,7 +15,9 @@ const ImageTextBlock = ({ src, text }) => (
   </div>
 );
 
-const Impact = () => (
+const Impact = () => {
+  ScrollToTop()
+return(
   <div className="impact-page">
 
     <div className="bg-black justify-center h-[92vh] items-center flex-col flex">
@@ -23,8 +27,8 @@ const Impact = () => (
       <h1 className="text-sea font-shrikhand text-5xl text-center w-11/12 z-30">OUR IMPACT</h1>
       <br />
       <p className="text-white w-3/6 text-center font-ubuntu font-normal mx-auto z-30">
-        Explore our platform to discover engaging projects that focus on bringing the 
-        transformative gift of music to children in various communities.
+        Our music programs are great ways to increase interest in music for kids. 
+        View successful past programs. 
       </p>
     </div>
     <div style={{ height: '50px' }} /> {/* Spacer with specified height */}
@@ -52,5 +56,6 @@ const Impact = () => (
     </div>
   </div>
 );
+};
 
 export default Impact;
