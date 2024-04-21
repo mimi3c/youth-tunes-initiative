@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import ScrollToTop from '../components/ScrollToTop';
 
 const Contact = () => {
   const form = useRef();
@@ -25,10 +26,12 @@ const Contact = () => {
       );
   };
 
+  ScrollToTop();
+
   return (
     <div>
-      <div className="bg-black justify-center h-[92vh] flex flex-col items-center">
-        <div className="absolute w-full h-[92vh] overflow-hidden">
+      <div className="bg-black justify-center h-[70vh] flex flex-col items-center">
+        <div className="absolute w-full h-[70vh] overflow-hidden">
           <img src="" alt="" className="opacity-80 w-full h-full object-cover" />
         </div>
         <h1 className="text-sea font-shrikhand text-5xl text-center z-30">GET IN TOUCH</h1>
