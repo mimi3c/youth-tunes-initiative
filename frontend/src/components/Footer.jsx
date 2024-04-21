@@ -14,7 +14,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex-1">
-                
+                Instagram Upcoming <br />
+                Facebook Upcoming <br />
+                YouTube Upcoming
             </div>
             <div className="">
                 <img src={logo} alt="logo" className="h-20 my-1"/>

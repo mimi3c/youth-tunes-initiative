@@ -18,8 +18,9 @@ const Team = () => {
                 </h1>
                 <p className="text-white w-3/6 text-center font-ubuntu font-normal mx-auto z-30">
                     <br />
-                    Explore our platform to discover engaging projects that focus on bringing the 
-                    transformative gift of music to children in various communities.
+                    Meet our team who conduct and teach the programs we offer. Our members 
+                    are experienced and well-trained in different areas of music such as
+                    voice, dance, instruments, and theory. 
                 </p>
             </div>
             <div className="bg-white grid w-full justify-self-center lg:grid-cols-3 md:grid-cols-2 pt-20">

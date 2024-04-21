@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import webvid from "../images/webvid.mp4";
 import PercussionK from "../images/PercussionImpact.jpg";
-import ScrollToTop from '../components/ScrollToTop';
+import ScrollToTop from "../components/ScrollToTop";
+
 
 const ImageTextBlock = ({ src, text, desc }) => (
   <div className="my-5 text-center"> {/* Add margin for vertical stacking */}
@@ -18,12 +19,11 @@ const ImageTextBlock = ({ src, text, desc }) => (
 );
 
 const Impact = () => {
-  
-  //ScrollToTop();
+
+  ScrollToTop();
 
   return(
     <div className="impact-page">
-
       <div className="bg-black justify-center h-[92vh] items-center flex-col flex">
         <div className="absolute w-full h-[92vh] overflow-clip">
           <video src={webvid} className="opacity-80 w-full h-full object-cover" autoPlay muted loop />
@@ -59,7 +59,6 @@ const Impact = () => {
       </div>
     </div>
   )
-  
 };
 
 export default Impact;
