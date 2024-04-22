@@ -6,62 +6,62 @@ const day4 = "Students incorporate newly learned knowledge of rhythm with moveme
 const eventslist = [
     {
         town: "Linden",
-        link: "",
+        link: "https://lindenlibrary-nj.gov/youth-tunes-percussion-rhythm/",
         events: [
             {
-                month: 1,
-                day: 20,
+                month: 5,
+                day: 4,
                 year: 24,
-                time: "01:00-02:00",
+                time: "01:00-01:45",
                 desc: day1
             },
             {
-                month: 2,
-                day: 10,
+                month: 5,
+                day: 11,
                 year: 24,
-                time: "03:00-04:00",
+                time: "01:00-01:45",
                 desc: day2
             },
             {
-                month: 2,
-                day: 10,
+                month: 5,
+                day: 18,
                 year: 24,
-                time: "03:00-04:00",
-                desc: day2
+                time: "01:00-01:45",
+                desc: day3
             },
             {
-                month: 2,
-                day: 10,
+                month: 5,
+                day: 25,
                 year: 24,
-                time: "03:00-04:00",
-                desc: day2
-            },
-            {
-                month: 2,
-                day: 10,
-                year: 24,
-                time: "03:00-04:00",
-                desc: day2
+                time: "01:00-01:45",
+                desc: day4
             }
         ]
     },
     {
         town: "Union",
-        link:"",
+        link:"https://uplnj.org/event/youth-tunes-an-introduction-to-music/",
         events: [
             {
-                month: 1,
-                day: 15,
+                month: 6,
+                day: 1,
                 year: 24,
-                time: "05:00-06:00",
-                desc: day3
+                time: "10:30-11:30",
+                desc: day1
             },
             {
-                month: 3,
-                day: 25,
+                month: 6,
+                day: 8,
                 year: 24,
-                time: "07:00-08:00",
-                desc: day4
+                time: "10:30-11:30",
+                desc: day2
+            },
+            {
+                month: 6,
+                day: 15,
+                year: 24,
+                time: "10:30-11:30",
+                desc: day3
             }
         ]
     },
@@ -70,21 +70,106 @@ const eventslist = [
         link: "https://kenilworthlibrary.org/event/youth-tunes-workshop-at-the-kenilworth-public-library-2/",
         events: [
             {
-                month: 5,
-                day: 3,
+                month: 3,
+                day: 2,
                 year: 24,
-                time: "09:00-10:00",
+                time: "12:30-1:30",
+                desc: day1
+            },
+            {
+                month: 3,
+                day: 9,
+                year: 24,
+                time: "12:30-1:30",
+                desc: day2
+            },
+            {
+
+                month: 3,
+                day: 16,
+                year: 24,
+                time: "12:30-1:30",
+                desc: day3
+            },
+            {
+                month: 3,
+                day: 23,
+                year: 24,
+                time: "12:30-1:30",
+                desc: day4
+            },
+        ]
+    },
+    {
+        town: "Elizabeth",
+        link: "https://elizpl.evanced.info/signup/EventDetails?EventId=8303&backTo=Calendar&startDate=2024/04/01",
+        events: [
+            {
+                month: 4,
+                day: 13,
+                year: 24,
+                time: "12:00-12:45",
+                desc: day1
+            },
+            {
+                month: 4,
+                day: 27,
+                year: 24,
+                time: "12:00-12:45",
                 desc: day2
             },
             {
                 month: 5,
-                day: 27,
+                day: 4,
                 year: 24,
-                time: "11:00-12:00",
+                time: "12:00-12:45",
                 desc: day3
+            },
+            {
+                month: 5,
+                day: 11,
+                year: 24,
+                time: "12:00-12:45",
+                desc: day4
             }
         ]
-    }
+    },
+    {
+        town: "Hillside",
+        link: "https://hillsidepl.org/event/youth-tunes-voice-ages-5-10/",
+        events: [
+            {
+                month: 2,
+                day: 3,
+                year: 24,
+                time: "01:00-01:45",
+                desc: day1
+            },
+            {
+                month: 2,
+                day: 10,
+                year: 24,
+                time: "01:00-01:45",
+                desc: day2
+            },
+            {
+                month: 2,
+                day: 17,
+                year: 24,
+                time: "01:00-01:45",
+                desc: day3
+            },
+            {
+                month: 2,
+                day: 24,
+                year: 24,
+                time: "01:00-01:45",
+                desc: day4
+            }
+        ]
+    },
+    
+    
 ]
 
 export default eventslist;

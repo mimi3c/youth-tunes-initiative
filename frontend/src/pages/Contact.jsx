@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import ScrollToTop from "../components/ScrollToTop";
+import ContactHeader from "../images/reva_musicnotes.jpg";
 
 
 const Contact = () => {
@@ -18,8 +19,9 @@ const Contact = () => {
       .then(
         (result) => {
           console.log('Email sent successfully');
-          ScrollToTop()
           e.target.reset(); // Reset the form after successful submission
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        
         },
         (error) => {
           console.error('Error sending email:', error);
@@ -34,7 +36,7 @@ const Contact = () => {
     <div>
       <div className="bg-black justify-center h-[70vh] flex flex-col items-center">
         <div className="absolute w-full h-[70vh] overflow-hidden">
-          <img src="" alt="" className="opacity-80 w-full h-full object-cover" />
+          <img src={ContactHeader} alt="" className="opacity-60 w-full h-full object-cover" />
         </div>
         <h1 className="text-sea font-shrikhand text-5xl text-center z-30">GET IN TOUCH</h1>
         <br />
