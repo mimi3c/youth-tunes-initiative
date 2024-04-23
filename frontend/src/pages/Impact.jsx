@@ -26,7 +26,7 @@ const ImageTextBlock = ({ src, text, desc }) => (
 
 const Impact = () => {
 
-  ScrollToTop();
+  //ScrollToTop();
 
   return(
     <div className="impact-page">
@@ -37,43 +37,41 @@ const Impact = () => {
         <h1 className="text-sea font-shrikhand text-5xl text-center w-11/12 z-30">OUR IMPACT</h1>
         <br />
         <p className="text-white w-3/6 text-center font-ubuntu font-normal mx-auto z-30">
-          Explore our platform to discover engaging projects that focus on bringing the 
-          transformative gift of music to children in various communities.
+          
         </p>
       </div>
       {/* Content sections */}
-      <div className="bg-night lg:flex md:flex p-10">
-        <h1 className='font-caprasimo text-3xl text-sea flex-1'>Rephrase this entire section basically</h1>
-        <div className='bg-white flex-1'>
-          <p>
-            <ul className='list-disc'>
-              <li>Programs established in x towns across Union County</li>
-              <li>Free workshops in low income towns</li>
-              <li>Introduce kids to basics of music theory</li>
-              <li>Give free instrument</li>
-              <li>Give kids dance and singing experience</li>
-              <li></li>
-            </ul>
-          </p>
+      <div className="bg-night lg:flex md:flex p-20 lg:px-32">
+        <h1 className='font-caprasimo text-2xl leading-relaxed text-sea flex-1 pr-20'>
+          Youth Tunes Initiative has established programs across Union County 
+          that are free and accessible to all young aspiring musicians. Our workshops 
+          include...{/*this layout looks rlly ugly but idk what else to put*/}
+        </h1>
+        <div className='flex-1'>
+          <ul className='text-white font-ubuntu'>
+            <li className='bg-orange my-4 p-3 mt-0 rounded-2xl'>Immersive and comprehensive introductions to music theory</li>
+            <li className='bg-orange my-4 p-3 rounded-2xl'>Exploration into a wide range of musical fields</li>
+            <li className='bg-orange my-4 p-3 rounded-2xl'>Musical experience through fun games, songs, dances, and more</li>
+            <li className='bg-orange my-4 p-3 mb-0 rounded-2xl'>A focus on learning past our program by providing easily applicable lessons and a free take-home instrument</li>            </ul>
         </div>
       </div>
       <div className="m-10 text-center grid lg:grid-cols-3 md:grid-cols-2 gap-x-10">
-        <ImageTextBlock src={PercussionK} text="Percussion at Kennilworth" desc="Kids learn to identify, read and play different rhythms on various percussion instruments such as drums and tambourines."/>
-        <ImageTextBlock src={MusicTheoryIMPACT} text="Music Theory at Elizabeth" desc="After learning how to read notes on the musical staff, kids play games to reinforce their memory and understanding."/>
-        <ImageTextBlock src={DanceIMPACT} text="Dance at Hillside" desc="Kids get ready to learn a short dance to a fun song from Backstreet Boys, reviewing the movements and learning how to count in eights. "/>
+        <ImageTextBlock src={PercussionK} text="Percussion at Kennilworth" desc="Kids learn to identify, read, and play different rhythms on various percussion instruments like drums and tambourines."/>
+        <ImageTextBlock src={MusicTheoryIMPACT} text="Music Theory at Elizabeth" desc="After learning how to read notes on the musical staff, they play games to reinforce their memory and understanding."/>
+        <ImageTextBlock src={DanceIMPACT} text="Dance at Hillside" desc="Kids get ready to dance to a fun song by the Backstreet Boys by reviewing their choreography and counting by eights. "/>
       </div>
 
       <div className="grid text-center">
         <img src={RecordersIMPACT} alt={"Recorders at Kennilworth"} className="border-4 border-sea w-5/6 h-80 bg-black rounded-3xl justify-self-center object-cover" />
-        <h1 className="font-rokkitt font-bold text-2xl mt-3 text-orange text-center">Large Image Text</h1>
+        <h1 className="font-rokkitt font-bold text-2xl mt-3 text-orange text-center">Recorders at Kennilworth</h1>
         <p className='font-ubuntu mx-10 mb-0'>
-          Kids learn to play different songs on their new recorders, which are theirs to keep and take home in order to continue learning.
+          Kids play different songs on their new recorders. Afterwards, they take them home and continue learning.
         </p>
       </div>
 
       <div className="m-10 text-center grid lg:grid-cols-3 md:grid-cols-2 gap-x-10">
-        <ImageTextBlock src={GamesIMPACT} text="Music Games at Elizabeth" desc="To reinforce the information they have learnt about music, kids play games in teams to learn the strucutre of a measure."/>
-        <ImageTextBlock src={ClapIMPACT} text="Rhythm at Hillside" desc="Kids clap out different rhythms to learn how different patterns can be put together to create music. "/>
+        <ImageTextBlock src={GamesIMPACT} text="Music Games at Elizabeth" desc="To reinforce their new knowledge of musical notation and measure structure, kids play games in teams."/>
+        <ImageTextBlock src={ClapIMPACT} text="Rhythm at Hillside" desc="Kids clap out different rhythms to learn how patterns are combined to create music. "/>
         {/*
         <ImageTextBlock src={VoiceIMPACT} text="Voice at Kennilworth" desc="As a group, kids both learn how to sing the solfege scale (do-re-mi) and sign it out." />
         <ImageTextBlock src={""} text="Another Image 1" desc = "blah blah"/>
