@@ -26,7 +26,7 @@ const ImageTextBlock = ({ src, text, desc }) => (
 
 const Impact = () => {
 
-  //ScrollToTop();
+  ScrollToTop();
 
   return(
     <div className="impact-page">
