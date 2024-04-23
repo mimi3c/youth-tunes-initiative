@@ -1,13 +1,13 @@
 const profilelist = [
     {
-        name: "Anusha Magdum",
-        image: "",
-        desc: "Anusha is a part of her high school choir, NJ Regionals Choir, and NJ All-State Choir. She has been performing at events for 8 years and has helped teach at the Wharton Arts Music School musical summer programs."
-    },
-    {
         name: "Reva Venkatraghan",
         image: "",
         desc: "Trained in Indian Classical dance for over 10 years, Reva has taught dance at a regular dance school as well as conducted her own dance summer camp. Reva has been playing violin for the past 7 years, and is currently a member of the NJYS Youth Orchestra."
+    },
+    {
+        name: "Anusha Magdum",
+        image: "",
+        desc: "Anusha is a part of her high school choir, NJ Regionals Choir, and NJ All-State Choir. She has been performing at events for 8 years and has helped teach at the Wharton Arts Music School musical summer programs."
     },
     {
         name: "Mimi Chay",
@@ -37,7 +37,7 @@ const profilelist = [
     {
         name: "Lizzie Toh",
         image: "",
-        desc: "Trained in Indian Classical dance for over 10 years, Reva has taught dance at a regular dance school as well as conducted her own dance summer camp. Reva has been playing violin for the past 7 years, and is currently a member of the NJYS Youth Orchestra."
+        desc: "Lizzie has played the piano for 10 years and sang for 6 years. She has experience in both choral and solo singing. She additionally plays the electric and acoustic guitar for different bands."
     },
 ]
 

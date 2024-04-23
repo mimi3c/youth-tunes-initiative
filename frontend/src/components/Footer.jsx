@@ -9,7 +9,7 @@ const Footer = () => {
                     Contact: 
                 </div>
                 <div className="">
-                    youth.tunes.initiative@gmail.com <br />
+                    youth.tunes.music@gmail.com <br />
                     908-873-2857
                 </div>
             </div>

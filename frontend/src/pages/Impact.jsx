@@ -1,7 +1,13 @@
 import React, { useEffect } from 'react';
 import webvid from "../images/webvid.mp4";
 import PercussionK from "../images/PercussionImpact.jpg";
+import MusicTheoryIMPACT from "../images/MusicTheoryIMPACT.JPG";
+import RecordersIMPACT from "../images/RecordersIMPACT.jpg";
 import ScrollToTop from "../components/ScrollToTop";
+import VoiceIMPACT from "../images/VoiceIMPACT.jpg";
+import DanceIMPACT from "../images/hillside.png";
+import GamesIMPACT from "../images/GamesIMPACT.JPG";
+import ClapIMPACT from "../images/ClapIMPACT.JPG"
 
 
 const ImageTextBlock = ({ src, text, desc }) => (
@@ -52,25 +58,27 @@ const Impact = () => {
         </div>
       </div>
       <div className="m-10 text-center grid lg:grid-cols-3 md:grid-cols-2 gap-x-10">
-        <ImageTextBlock src={PercussionK} text="Percussion Impact" desc="[Name] does [this thing] in [this town]. More descriptive sentences about stuff, each desc 2-3 lines."/>
-        <ImageTextBlock src={""} text="Image 1" desc="[Name] does [this thing] in [this town]. More descriptive sentences about stuff, each desc 2-3 lines."/>
-        <ImageTextBlock src={""} text="Image 2" desc="Super long description for formatting testing :) !!!!! Super long description for formatting testing :) !!!!! Super long description for formatting testing :) !!!!! Super long description for formatting testing :) !!!!! Super long description for formatting testing :) !!!!!"/>
+        <ImageTextBlock src={PercussionK} text="Percussion at Kennilworth" desc="Kids learn to identify, read and play different rhythms on various percussion instruments such as drums and tambourines."/>
+        <ImageTextBlock src={MusicTheoryIMPACT} text="Music Theory at Elizabeth" desc="After learning how to read notes on the musical staff, kids play games to reinforce their memory and understanding."/>
+        <ImageTextBlock src={DanceIMPACT} text="Dance at Hillside" desc="Kids get ready to learn a short dance to a fun song from Backstreet Boys, reviewing the movements and learning how to count in eights. "/>
       </div>
 
       <div className="grid text-center">
-        <img src={""} alt={"Large Image"} className="border-4 border-sea w-5/6 h-80 bg-black rounded-3xl justify-self-center object-cover" />
+        <img src={RecordersIMPACT} alt={"Recorders at Kennilworth"} className="border-4 border-sea w-5/6 h-80 bg-black rounded-3xl justify-self-center object-cover" />
         <h1 className="font-rokkitt font-bold text-2xl mt-3 text-orange text-center">Large Image Text</h1>
         <p className='font-ubuntu mx-10 mb-0'>
-          We are really cool and you should definitely join us. Later on we can make a scrolling menu maybe The desc should be about this long. The desc should be about this long. The desc should be about this long. The desc should be about this long. The desc should be about this long. 
+          Kids learn to play different songs on their new recorders, which are theirs to keep and take home in order to continue learning.
         </p>
       </div>
 
       <div className="m-10 text-center grid lg:grid-cols-3 md:grid-cols-2 gap-x-10">
-        <ImageTextBlock src={PercussionK} text="Percussion Impact" />
-        <ImageTextBlock src={""} text="Image 1" />
-        <ImageTextBlock src={""} text="Image 2" />
+        <ImageTextBlock src={GamesIMPACT} text="Music Games at Elizabeth" desc="To reinforce the information they have learnt about music, kids play games in teams to learn the strucutre of a measure."/>
+        <ImageTextBlock src={ClapIMPACT} text="Rhythm at Hillside" desc="Kids clap out different rhythms to learn how different patterns can be put together to create music. "/>
+        {/*
+        <ImageTextBlock src={VoiceIMPACT} text="Voice at Kennilworth" desc="As a group, kids both learn how to sing the solfege scale (do-re-mi) and sign it out." />
         <ImageTextBlock src={""} text="Another Image 1" desc = "blah blah"/>
         <ImageTextBlock src={""} text="Another Image 2" desc = "text text text"/>
+      */}
       </div>
     </div>
   )

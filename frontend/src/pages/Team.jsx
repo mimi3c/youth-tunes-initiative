@@ -2,6 +2,7 @@ import React from "react";
 import profilelist from "../components/profilelist";
 import ScrollToTop from "../components/ScrollToTop";
 import { Link } from "react-router-dom";
+import TeamHeader from "../images/hillside2.png";
 
 const Team = () => {
     
@@ -25,7 +26,7 @@ const Team = () => {
                     </p>
                 </div>
                 <div className="flex-1">
-                    <img src="" alt="" className="bg-black w-full h-[100vh] object-cover"/>
+                    <img src={TeamHeader} alt="" className="bg-black w-full h-[100vh] object-cover"/>
                 </div>
             </div>
             <div className="bg-white grid w-full justify-self-center lg:grid-cols-3 md:grid-cols-2 pt-20">
@@ -45,8 +46,8 @@ const Team = () => {
                 )}
             </div>
             <div className="flex justify-center items-center h-1/3 w-full">  
-                <Link to="/impact">
-                    <button className="bg-night text-white font-ubuntu rounded-3xl mb-20 mt-5 p-5 px-10 justify-self-center w-max-content" onClick={() => {}}>
+                <Link to="/contact">
+                    <button className="bg-night text-white font-ubuntu rounded-3xl my-10 mt-20 p-5 px-10 justify-self-center w-max-content" onClick={() => {}}>
                         Join our team
                     </button>
                 </Link>
