@@ -3,7 +3,7 @@ import logo from "../images/YTI_logo.svg";
 
 const Footer = () => {
     return(
-        <div className="bg-night font-ubuntu px-32 text-sea text-start py-10 flex">
+        <div className="bg-night font-ubuntu px-32 text-sea text-start py-10 lg:flex md:flex ">
             <div className="flex-1">
                 <div>
                     Contact: 

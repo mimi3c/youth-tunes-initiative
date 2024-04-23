@@ -29,7 +29,6 @@ const profilelist = [
         image: "",
         desc: "This is a super long description to test formatting. This is a super long description to test formatting. This is a super long description to test formatting. This is a super long description to test formatting. This is a super long description to test formatting. This is a super long description to test formatting. This is a super long description to test formatting. This is a super long description to test formatting."
     },
-
     {
         name: "Smruti Jadhav",
         image: "",
