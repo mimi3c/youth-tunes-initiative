@@ -10,7 +10,7 @@ const Team = () => {
     
     return(
         <div className="">
-            <div className="lg:h-[100vh] md:h-[100vh] lg:flex md:flex bg-night">
+            <div className="lg:h-[80vh] md:h-[80vh] lg:flex md:flex bg-night">
                 <div className="flex-1 text-center grid py-20 pt-32 lg:py-0 md:py-0 lg:pt-0 md:pt-0">
                     <h1 className="text-sea font-shrikhand text-5xl self-end">
                         OUR TEAM
@@ -25,8 +25,8 @@ const Team = () => {
                         with aspiring musicians.
                     </p>
                 </div>
-                <div className="flex-1">
-                    <img src={TeamHeader} alt="" className="bg-black w-full h-[100vh] object-cover"/>
+                <div className="flex-1 bg-black">
+                    <img src={TeamHeader} alt="" className="bg-black w-full h-[80vh] object-cover opacity-75"/>
                 </div>
             </div>
             <div className="bg-white grid w-full justify-self-center lg:grid-cols-3 md:grid-cols-2 pt-20">
@@ -34,7 +34,7 @@ const Team = () => {
                         return(
                             <div className="m-5 mx-10 text-center">
                                 <div className="grid">
-                                    <img src={profilelist[index].image} alt={profilelist[index].name} loading="lazy" className="w-80 h-80 bg-black rounded-3xl justify-self-center border-4 border-sea"/>
+                                    <img src={profilelist[index].image} alt={profilelist[index].name} loading="lazy" className="w-80 h-96 bg-black rounded-3xl justify-self-center border-4 border-sea object-cover"/>
                                 </div>
                                 <div className="align-top">
                                     <h1 className="font-rokkitt text-3xl pt-3 font-bold text-orange p-1">{profilelist[index].name}</h1>
