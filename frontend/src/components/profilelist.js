@@ -1,3 +1,9 @@
+import kamila from "../images/kamila.jpeg"
+import lizzie from "../images/lizzie.jpeg"
+import meena from "../images/meena.jpeg"
+import izzy from "../images/izzy.jpeg"
+import mimi from "../images/mimi.jpeg"
+
 const profilelist = [
     {
         name: "Reva Venkatraghan",
@@ -11,23 +17,23 @@ const profilelist = [
     },
     {
         name: "Mimi Chay",
-        image: "",
+        image: mimi,
         desc: "Mimi has been playing piano for over 10 years and has reached Level 9 of piano and music theory from the Royal Conservatory of Music. She has performed at several recitals, including Carnegie Hall's Rising Talents Festival, and is an active member of her high school's music club."
     },
     {
         name: "Kamila Castro-Dworzynska",
-        image: "",
+        image: kamila,
         desc: "Kamila has been playing the flute for 10 years. She is currently part of her high school marching band and is recognized as student leadership. She has 8 years of experience in concert band and has taken part in the Morris union jointure commission band."
     },
     {
-        name: "Isabelle Latorre",
-        image: "",
-        desc: "This is a short description to test formatting."
+        name: "Izzy Latorre",
+        image: izzy,
+        desc: "Izzy has been singing and performing in musical theater since elementary school. She has also done ballet, jazz, and hip-hop. She has been in productions such as Disney's Camp Rock and several Off-Broadway shows."
     },
     {
         name: "Meena Oberoi",
-        image: "",
-        desc: "This is a super long description to test formatting. This is a super long description to test formatting. This is a super long description to test formatting. This is a super long description to test formatting. This is a super long description to test formatting. This is a super long description to test formatting. This is a super long description to test formatting. This is a super long description to test formatting."
+        image: meena,
+        desc: "Meena has been dancing Kathak, a classical Indian dance, for 12 years. She has danced both internationally in Greece and at many local performances across NJ."
     },
     {
         name: "Smruti Jadhav",
@@ -36,7 +42,7 @@ const profilelist = [
     },
     {
         name: "Lizzie Toh",
-        image: "",
+        image: lizzie,
         desc: "Lizzie has played the piano for 10 years and sang for 6 years. She has experience in both choral and solo singing. She additionally plays the electric and acoustic guitar for different bands."
     },
 ]

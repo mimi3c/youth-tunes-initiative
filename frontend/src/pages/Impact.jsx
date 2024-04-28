@@ -30,8 +30,8 @@ const Impact = () => {
 
   return(
     <div className="impact-page">
-      <div className="bg-black justify-center h-[100vh] items-center flex-col flex">
-        <div className="absolute w-full h-[100vh] overflow-clip">
+      <div className="bg-black justify-center h-[80vh] items-center flex-col flex">
+        <div className="absolute w-full h-[80vh] overflow-clip">
           <video src={webvid} className="opacity-80 w-full h-full object-cover" autoPlay muted loop />
         </div>
         <h1 className="text-sea font-shrikhand text-5xl text-center w-11/12 z-30">OUR IMPACT</h1>
