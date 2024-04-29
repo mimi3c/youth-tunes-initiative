@@ -23,7 +23,7 @@ const Home = () => {
                 <div className="absolute w-full h-full overflow-clip">
                     <img src={homeBg} alt="" className="opacity-80 w-full h-full object-cover"/>
                 </div>
-                <h1 className="text-sea font-shrikhand text-5xl text-center w-11/12 z-30">
+                <h1 className="text-sea font-shrikhand lg:text-5xl md:text-5xl text-3xl text-center w-11/12 z-30">
                     YOUTH TUNES INITIATIVE
                 </h1>
                 <p className="text-white w-5/12 text-center font-ubuntu font-normal mx-auto z-30">
