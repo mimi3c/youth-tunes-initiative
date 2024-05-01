@@ -3,16 +3,20 @@ import lizzie from "../images/lizzie.jpeg"
 import meena from "../images/meena.jpeg"
 import izzy from "../images/izzy.jpeg"
 import mimi from "../images/mimi.jpeg"
+import anusha from "../images/anusha.jpeg"
+import smruti from "../images/smruti.jpeg"
+import reva from "../images/reva.jpeg"
+
 
 const profilelist = [
     {
         name: "Reva Venkatraghan",
-        image: "",
+        image: reva,
         desc: "Trained in Indian Classical dance for over 10 years, Reva has taught dance at a regular dance school as well as conducted her own dance summer camp. Reva has been playing violin for the past 7 years, and is currently a member of the NJYS Youth Orchestra."
     },
     {
         name: "Anusha Magdum",
-        image: "",
+        image: anusha,
         desc: "Anusha is a part of her high school choir, NJ Regionals Choir, and NJ All-State Choir. She has been performing at events for 8 years and has helped teach at the Wharton Arts Music School musical summer programs."
     },
     {
@@ -37,8 +41,8 @@ const profilelist = [
     },
     {
         name: "Smruti Jadhav",
-        image: "",
-        desc: "This is a short description to test formatting."
+        image: smruti,
+        desc: "Smruti has been playing the piano and singing for 12+ years. Aside from regularly participating in competitions and recitals, she has also been involved in various musical ensembles including the Summit High School's Treble Choir and Chamber Orchestra."
     },
     {
         name: "Lizzie Toh",
