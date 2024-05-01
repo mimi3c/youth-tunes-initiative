@@ -10,6 +10,10 @@ import hillside from "../images/hillside2.png"
 import { IoIosArrowDown } from "react-icons/io";
 import ScrollToTop from "../components/ScrollToTop";
 import { Link } from "react-router-dom";
+import reva from "../images/reva.jpeg"
+import anusha from "../images/anusha.jpeg"
+
+
 
 
 const Home = () => {
@@ -47,20 +51,20 @@ const Home = () => {
             <div className="bg-night py-32">
                 <div className="lg:mx-64 grid justify-center">
                     <h1 className="text-sea text-center font-shrikhand uppercase justify-self-center text-5xl w-11/12">Our founders</h1>
-                    <div className="lg:flex md:flex grid justify-center">
+                    <div className="lg:flex md:flex grid gap-x-10 justify-center">
                         <div className="grid flex-1">
-                            <img src="" alt="" className="justify-self-center bg-black w-80 h-80 m-10 rounded-3xl"/>
+                            <img src={anusha} alt="" className="object-cover justify-self-center bg-black w-80 h-80 m-10 rounded-3xl"/>
                             <div className="text-center">
                                 <h1 className="text-4xl font-bold text-orange font-rokkitt">Anusha</h1>
                                 <p className="font-ubuntu text-white m-10">
-                                    Anusha is a part of her high school choir, NJ Regionals Choir, and NJ All-State Choir.
-                                    She has been performing at events for 8 years and has helped teach at the Wharton Arts Music
-                                    School musical summer programs. <br /><br /><br />
+                                    Anusha is a part of her high school select choir, NJ Regionals Choir, and NJ All-State Choir.
+                                    She has been performing at events for 9 years, been part of various select choirs for 6 years, and has helped teach at the Wharton Performing Arts
+                                    School musical theatre summer programs. <br /><br /><br />
                                 </p>
                             </div>
                         </div>
                         <div className="grid flex-1">
-                            <img src="" alt="" className="justify-self-center bg-black w-80 h-80 m-10 rounded-3xl"/>
+                            <img src={reva} alt="" className="object-cover justify-self-center bg-black w-80 h-80 m-10 rounded-3xl"/>
                             <div className="text-center">
                                 <h1 className="text-4xl font-bold text-orange font-rokkitt">Reva</h1>
                                 <p className="font-ubuntu text-white m-10">
