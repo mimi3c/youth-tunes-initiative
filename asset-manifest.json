@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/youth-tunes-initiative/static/css/main.e3adba6f.css",
-    "main.js": "/youth-tunes-initiative/static/js/main.f704516f.js",
+    "main.js": "/youth-tunes-initiative/static/js/main.81c809bc.js",
     "static/media/webvid.mp4": "/youth-tunes-initiative/static/media/webvid.a3815fc1244904c76974.mp4",
     "static/media/ClapIMPACT.JPG": "/youth-tunes-initiative/static/media/ClapIMPACT.400b0591d9f5f3ec98d7.JPG",
     "static/media/VoiceIMPACT.jpg": "/youth-tunes-initiative/static/media/VoiceIMPACT.19337a311067465f528d.jpg",
@@ -28,10 +28,10 @@
     "static/media/izzy.jpeg": "/youth-tunes-initiative/static/media/izzy.5aad53f15e54e8985d43.jpeg",
     "index.html": "/youth-tunes-initiative/index.html",
     "main.e3adba6f.css.map": "/youth-tunes-initiative/static/css/main.e3adba6f.css.map",
-    "main.f704516f.js.map": "/youth-tunes-initiative/static/js/main.f704516f.js.map"
+    "main.81c809bc.js.map": "/youth-tunes-initiative/static/js/main.81c809bc.js.map"
   },
   "entrypoints": [
     "static/css/main.e3adba6f.css",
-    "static/js/main.f704516f.js"
+    "static/js/main.81c809bc.js"
   ]
 }
