@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://mimi3c.github.io/yti-music-thing/frontend",
+  "homepage": "https://mimi3c.github.io/youth-tunes-initiative",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
