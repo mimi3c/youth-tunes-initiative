@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/youth-tunes-initiative/frontend/static/css/main.e3adba6f.css",
+    "main.js": "/youth-tunes-initiative/frontend/static/js/main.a89176af.js",
+    "static/media/webvid.mp4": "/youth-tunes-initiative/frontend/static/media/webvid.a3815fc1244904c76974.mp4",
+    "static/media/ClapIMPACT.JPG": "/youth-tunes-initiative/frontend/static/media/ClapIMPACT.400b0591d9f5f3ec98d7.JPG",
+    "static/media/VoiceIMPACT.jpg": "/youth-tunes-initiative/frontend/static/media/VoiceIMPACT.19337a311067465f528d.jpg",
+    "static/media/MusicTheoryIMPACT.JPG": "/youth-tunes-initiative/frontend/static/media/MusicTheoryIMPACT.760d7752d77138f9bd68.JPG",
+    "static/media/hillside.png": "/youth-tunes-initiative/frontend/static/media/hillside.8d5c2826db11f768e44e.png",
+    "static/media/IMG_2620.jpg": "/youth-tunes-initiative/frontend/static/media/IMG_2620.0331e5d16ce0a6856870.jpg",
+    "static/media/hillside2.png": "/youth-tunes-initiative/frontend/static/media/hillside2.87e20b2ea240e5fb1613.png",
+    "static/media/IMG_2985.JPG": "/youth-tunes-initiative/frontend/static/media/IMG_2985.eb1c6ab3b60b1215bf54.JPG",
+    "static/media/PercussionImpact.jpg": "/youth-tunes-initiative/frontend/static/media/PercussionImpact.f0cfd9fa57e0c8fbd014.jpg",
+    "static/media/GamesIMPACT.JPG": "/youth-tunes-initiative/frontend/static/media/GamesIMPACT.cfe9d2dbc63b24592c39.JPG",
+    "static/media/HEADER.jpg": "/youth-tunes-initiative/frontend/static/media/HEADER.ae52a0d0a97b50cfa20e.jpg",
+    "static/media/reva_musicnotes.jpg": "/youth-tunes-initiative/frontend/static/media/reva_musicnotes.a0557acb68802085ff89.jpg",
+    "static/media/home_bg.jpeg": "/youth-tunes-initiative/frontend/static/media/home_bg.27be6cee22d0fc1cce40.jpeg",
+    "static/media/RecordersIMPACT.jpg": "/youth-tunes-initiative/frontend/static/media/RecordersIMPACT.1f152b5a1e18d94c7722.jpg",
+    "static/media/reva.jpeg": "/youth-tunes-initiative/frontend/static/media/reva.3d2df59d62f6f15894b7.jpeg",
+    "static/media/smruti.jpeg": "/youth-tunes-initiative/frontend/static/media/smruti.d56378880e4cef82e994.jpeg",
+    "static/media/DanceIMPACT.jpg": "/youth-tunes-initiative/frontend/static/media/DanceIMPACT.96cf0b540a695ba1669a.jpg",
+    "static/media/kamila.jpeg": "/youth-tunes-initiative/frontend/static/media/kamila.7c923f3863cae822d02b.jpeg",
+    "static/media/meena.jpeg": "/youth-tunes-initiative/frontend/static/media/meena.b9e73cac948dca08d508.jpeg",
+    "static/media/lizzie.jpeg": "/youth-tunes-initiative/frontend/static/media/lizzie.83c59f67db4f3e907dbd.jpeg",
+    "static/media/mimi.jpeg": "/youth-tunes-initiative/frontend/static/media/mimi.f9c08b42d8a21c1bf52b.jpeg",
+    "static/media/YTI_logo.svg": "/youth-tunes-initiative/frontend/static/media/YTI_logo.dee401db94144a91f1fd3c6a666a3870.svg",
+    "static/media/anusha.jpeg": "/youth-tunes-initiative/frontend/static/media/anusha.ab4b06546b1df0895f68.jpeg",
+    "static/media/izzy.jpeg": "/youth-tunes-initiative/frontend/static/media/izzy.5aad53f15e54e8985d43.jpeg",
+    "index.html": "/youth-tunes-initiative/frontend/index.html",
+    "main.e3adba6f.css.map": "/youth-tunes-initiative/frontend/static/css/main.e3adba6f.css.map",
+    "main.a89176af.js.map": "/youth-tunes-initiative/frontend/static/js/main.a89176af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3adba6f.css",
+    "static/js/main.a89176af.js"
+  ]
+}
